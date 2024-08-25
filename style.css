@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins";
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.header_wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-title {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: white;
+    padding-top: 200px;
+    margin-left: 200px;
+}
+
+.back-img {
+    background-image: url("./bg-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: top;
+}
+
+.main-btn {
+    width: 272px;
+    height: 72px;
+    background-color: #7B61FF;
+    border-radius: 8px;
+    border:  none;
+    margin-top: 50px;
+    margin-left: 480px;
+    margin-bottom: 180px;
+}
+
+.main-item {
+    width: 1140px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.explore{
+    font-family: "Poppins";
+    display: flex;
+    gap: 1px;
+    align-items: center;
+}
+
+.actives {
+    font-family: "Poppins";
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.date {
+    font-family: "Poppins";
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.guests {
+    font-family: "Poppins";
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-tem {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #7B61FF;
+    border: none;
+}
+
+.all-box {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.section-p {
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.sec-p {
+    color: gray;
+    font-family: "Poppins";
+}
